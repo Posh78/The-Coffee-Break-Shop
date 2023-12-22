@@ -1,0 +1,63 @@
+h1 {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgba(100, 52, 52, 0.664);
+}
+.image{
+    display: block;    
+    width: 90%;
+}
+.coffeepictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.picturewithtext { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+
+p{
+    font-size: 20px;
+    /* text-align: center; */
+    color: rgb(240, 241, 243);
+    white-space: pre-line;
+}
+
+
+.description {
+    width: 60%;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c4beb5;
+    color: #1b1e18;
+}
+
+.item {
+    background-color: #2f332d;
+    color: #fffdfa; 
+  border-radius: 10px;  
+  width: 110px;
+ text-align: center; 
+text-decoration: none;
+font-size: 16px;
+}
+
+
+
+
+
